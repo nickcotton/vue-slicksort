@@ -3,6 +3,9 @@ import { ElementMixin } from '../ElementMixin';
 
 export const SlickItem = defineComponent({
   name: 'SlickItem',
+  compatConfig: {
+    MODE: 3
+  },
   mixins: [ElementMixin],
   props: {
     tag: {
